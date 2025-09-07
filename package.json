@@ -10,7 +10,7 @@
     "typescript": "^5.9.2"
   },
   "bin": {
-    "sortify": "./index.ts"
+    "sortify": "src/index.ts"
   },
   "type": "module"
 }
