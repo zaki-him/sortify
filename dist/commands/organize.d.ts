@@ -1,3 +1,2 @@
-import { type PathLike } from 'fs';
-export declare const organize: (path: PathLike) => void;
+export declare const organize: (targetPath: string) => void;
 //# sourceMappingURL=organize.d.ts.map

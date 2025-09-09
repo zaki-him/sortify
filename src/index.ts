@@ -4,7 +4,7 @@ import { program } from "commander";
 import { organize } from "./commands/organize.js";
 
 interface Option {
-  path: string
+  path?: string
 }
 
 program
@@ -12,5 +12,7 @@ program
 .description("organize files into folders")
 .option("-p --path <path>", ".")
 .action((options: Option) => {
-  organize(options.path)
+  organize(options.path ?? '.')
 })
+
+program.parse(process.argv)

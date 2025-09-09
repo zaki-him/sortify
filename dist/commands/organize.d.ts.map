@@ -1,1 +1,1 @@
-{"version":3,"file":"organize.d.ts","sourceRoot":"","sources":["../../src/commands/organize.ts"],"names":[],"mappings":"AAAA,OAAW,EAAE,KAAK,QAAQ,EAAE,MAAM,IAAI,CAAA;AAEtC,eAAO,MAAM,QAAQ,GAAI,MAAM,QAAQ,SAEtC,CAAA"}
+{"version":3,"file":"organize.d.ts","sourceRoot":"","sources":["../../src/commands/organize.ts"],"names":[],"mappings":"AAiBA,eAAO,MAAM,QAAQ,GAAI,YAAY,MAAM,KAAG,IAsC7C,CAAA"}

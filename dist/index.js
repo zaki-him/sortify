@@ -6,6 +6,7 @@ program
     .description("organize files into folders")
     .option("-p --path <path>", ".")
     .action((options) => {
-    organize(options.path);
+    organize(options.path ?? '.');
 });
+program.parse(process.argv);
 //# sourceMappingURL=index.js.map
